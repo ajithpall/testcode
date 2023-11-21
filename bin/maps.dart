@@ -8,4 +8,8 @@ void main() {
   color['green'] = '#fgf';
   color.addAll({'orange': '#or', 'pink': '#p'});
   print(color);
+  //print specific
+  print(color[1]);
+  //print add two set not work
+  //print(color + ages);
 }

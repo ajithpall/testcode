@@ -1,6 +1,26 @@
 void main() {
-  Map volume = Map();
-  volume['ajith'] = 'mental ';
-  volume.addAll({'junni': 'sunni'});
-  print(volume);
+  int gfg1 = 3;
+  String gfg2 = "Geek";
+  switch (gfg1) {
+    case 1:
+      {
+        switch (gfg2) {
+          case 'Geek':
+            {
+              print("Welcome to GeeksforGeeks");
+            }
+        }
+      }
+      break;
+    case 2:
+      {
+        print("GeeksforGeeks number 2");
+      }
+      break;
+    default:
+      {
+        print("This is default case");
+      }
+      break;
+  }
 }
